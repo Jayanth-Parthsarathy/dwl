@@ -32,7 +32,7 @@ static const Rule rules[] = {
 	/* examples:
 	{ "Gimp",     NULL,       0,            1,           -1 },
 	*/
-	{ "Gimp",  NULL,       1 << 8,       0,           -1 },
+  { "foot",     NULL,       0,            0,          1,      1,         -1 },
 };
 
 /* layout(s) */
