@@ -32,7 +32,7 @@ static const Rule rules[] = {
 	/* examples:
 	{ "Gimp",     NULL,       0,            1,           -1 },
 	*/
-	{ "firefox",  NULL,       1 << 8,       0,           -1 },
+	{ "Gimp",  NULL,       1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
