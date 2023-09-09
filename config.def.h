@@ -24,7 +24,7 @@ static const char *const autostart[] = {
 };
 
 /* tagging - tagcount must be no greater than 31 */
-#define TAGCOUNT (6)
+#define TAGCOUNT (9)
 static const int tagcount = TAGCOUNT;
 
 static const Rule rules[] = {
@@ -32,6 +32,7 @@ static const Rule rules[] = {
 	/* examples:
 	{ "Gimp",     NULL,       0,            1,           -1 },
 	*/
+  { "lf",     NULL,       0,            0,          1,      1,         -1 },
   { "foot",     NULL,       0,            0,          1,      1,         -1 },
 };
 
@@ -72,7 +73,7 @@ static const int drag_lock = 1;
 static const int natural_scrolling = 0;
 static const int disable_while_typing = 1;
 static const int left_handed = 0;
-static const int middle_button_emulation = 0;
+static const int middle_button_emulation = 1;
 /* You can choose between:
 LIBINPUT_CONFIG_SCROLL_NO_SCROLL
 LIBINPUT_CONFIG_SCROLL_2FG
