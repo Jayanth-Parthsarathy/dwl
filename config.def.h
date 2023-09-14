@@ -15,7 +15,7 @@ static const float fullscreen_bg[]         = {0.1, 0.1, 0.1, 1.0};
 
 /* Autostart */
 static const char *const autostart[] = {
-        "swaybg","-i", "/home/jayanth/Pictures/wallpaper.png", NULL,
+        "swaybg","-i", "/home/jayanth/Pictures/wallpaper/minimalistic/finalizer.png", NULL,
         "pipewire", NULL,
         "pipewire-pulse", NULL,
         "wireplumber", NULL,
